@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab 04. Horkavchuk Nik AS-64</string>
+    <string name="text_view">TextView</string>
+    <string name="loadBtn">Load Data</string>
+    <string name="author">Горкавчук Никита Михайлович</string>
+    <string name="authorBtn">Author</string>
+    <string name="emptyList">Press "Load Data" for load data</string>
+</resources>
