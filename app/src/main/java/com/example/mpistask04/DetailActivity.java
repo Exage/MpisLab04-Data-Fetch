@@ -18,7 +18,7 @@ import com.example.mpistask04.model.Post;
 public class DetailActivity extends AppCompatActivity {
 
     public TextView detailTitle, detailBody;
-    public Button authorBtn;
+    public Button authorBtn, backBtn;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +44,15 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showAlertDialog("Разработал", getString(R.string.author));
+            }
+        });
+
+        backBtn = findViewById(R.id.backBtn);
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
     }
