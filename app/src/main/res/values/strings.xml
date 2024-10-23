@@ -4,5 +4,6 @@
     <string name="loadBtn">Load Data</string>
     <string name="author">Горкавчук Никита Михайлович</string>
     <string name="authorBtn">Author</string>
-    <string name="emptyList">Press "Load Data" for load data</string>
+    <string name="emptyList">Press «Load Data» for load data</string>
+    <string name="backBtn">Go back</string>
 </resources>
